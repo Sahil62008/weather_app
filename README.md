@@ -1,11 +1,11 @@
 # Weather App (PyQt5 + OpenWeather API)
 A lightweight PyQt5 desktop app that displays real-time weather data using the OpenWeather API. Fetches live information for any city and shows temperature, conditions, humidity, and wind speed in a clean, responsive UI. Built with modular, maintainable Python code for reliable performance.
 
-✨ Features :
+ Features :
 -Real-time weather data retrieval
 -Clean and responsive PyQt5 interface
 
-✨Displays:
+Displays:
 -Temperature
 -Weather condition
 -Humidity
@@ -13,12 +13,18 @@ A lightweight PyQt5 desktop app that displays real-time weather data using the O
 -Input validation and error handling
 -Modular and maintainable Python code structure
 
- ✨Technologies Used
+Technologies Used
 -Python
 -PyQt5
 -Requests
 -OpenWeather API
 
-📦 Installation
-1.Clone the repository git clone https://github.com/your-username/weather-app.git cd weather-app
+Installation
+1.Clone the repository -->  git clone https://github.com/your-username/weather-app.git cd weather_app
+2.Install dependencies -->  pip install -r requirements.txt
+3.Run the application using: python weather_app.py 
+Steps:
 
+-Enter the name of a city
+-Click "Get Weather"
+-View the current temperature and weather description
